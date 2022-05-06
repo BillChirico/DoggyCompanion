@@ -1,0 +1,23 @@
+﻿@inject DoggyCompanionContext Context
+@page "/statistics"
+@using DoggyCompanion.Service
+@using DoggyCompanion.Domain.Pets
+<h3>Statistics</h3>
+
+@foreach (var pet in Pets)
+{
+    <div>
+        @pet.Name
+    </div>
+}
+
+@code {
+
+    private IEnumerable<Pet> Pets { get; set; }
+
+    protected override void OnInitialized()
+    {
+        Pets = Context.Pets.ToList();
+    }
+
+}

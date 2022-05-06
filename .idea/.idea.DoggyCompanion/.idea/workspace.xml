@@ -5,14 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f7a8055-41eb-46e9-9cba-d1f6965ca5ee" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DoggyCompanion.Domain/Users/User.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DoggyCompanion.Service/DoggyCompanionContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DoggyCompanion.Service/Migrations/20220506134151_InitialMigration.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DoggyCompanion.Service/Migrations/20220506134151_InitialMigration.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DoggyCompanion.Service/Migrations/DoggyCompanionContextModelSnapshot.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DoggyCompanion.Ui/Pages/Events.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DoggyCompanion.Ui/Pages/Settings.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DoggyCompanion.Ui/Pages/Statistics.razor" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DoggyCompanion/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DoggyCompanion/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DoggyCompanion.Domain/Pets/Pet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/DoggyCompanion.Domain/Pets/Pet.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DoggyCompanion.Service/DoggyCompanion.Service.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/DoggyCompanion.Service/DoggyCompanion.Service.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DoggyCompanion.Service/DoggyCompanionContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/DoggyCompanion.Service/DoggyCompanionContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DoggyCompanion.Ui/DoggyCompanion.Ui.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/DoggyCompanion.Ui/DoggyCompanion.Ui.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DoggyCompanion.Ui/MauiProgram.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/DoggyCompanion.Ui/MauiProgram.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DoggyCompanion.Ui/Shared/MainLayout.razor" beforeDir="false" afterPath="$PROJECT_DIR$/src/DoggyCompanion.Ui/Shared/MainLayout.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DoggyCompanion.Ui/Shared/NavMenu.razor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DoggyCompanion.Ui/Shared/NavMenu.razor.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DoggyCompanion.Ui/wwwroot/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/DoggyCompanion.Ui/wwwroot/css/app.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,16 +53,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "rider.run.widget.enabled.cache": "false",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;rider.run.widget.enabled.cache&quot;: &quot;false&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -70,7 +73,9 @@
       <updated>1651807585253</updated>
       <workItem from="1651807586426" duration="69000" />
       <workItem from="1651809808581" duration="1427000" />
-      <workItem from="1651842104467" duration="2915000" />
+      <workItem from="1651842104467" duration="3763000" />
+      <workItem from="1651862227023" duration="770000" />
+      <workItem from="1651864829660" duration="3191000" />
     </task>
     <task id="LOCAL-00001" summary="add properties to domain models">
       <created>1651811041353</created>
@@ -79,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651811041353</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add entity framework, dbcontext and postgresql packages">
+      <created>1651845118327</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1651845118327</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,7 +115,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="add properties to domain models" />
-    <option name="LAST_COMMIT_MESSAGE" value="add properties to domain models" />
+    <MESSAGE value="add entity framework, dbcontext and postgresql packages" />
+    <option name="LAST_COMMIT_MESSAGE" value="add entity framework, dbcontext and postgresql packages" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />

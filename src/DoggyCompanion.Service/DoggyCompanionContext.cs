@@ -7,6 +7,11 @@ namespace DoggyCompanion.Service;
 
 public class DoggyCompanionContext : DbContext
 {
+    public DoggyCompanionContext(DbContextOptions<DoggyCompanionContext> options)
+        : base(options)
+    {
+    }
+
     public DbSet<Pet> Pets { get; set; }
 
     public DbSet<BathroomEvent> BathroomEvents { get; set; }
@@ -18,10 +23,4 @@ public class DoggyCompanionContext : DbContext
     public DbSet<SleepEvent> SleepEvents { get; set; }
 
     public DbSet<User> Users { get; set; }
-
-
-    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-    {
-        optionsBuilder.UseNpgsql();
-    }
 }
