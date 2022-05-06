@@ -1,5 +1,4 @@
-﻿using DoggyCompanion.Ui.Data;
-using Microsoft.AspNetCore.Components.WebView.Maui;
+﻿using Microsoft.AspNetCore.Components.WebView.Maui;
 
 namespace DoggyCompanion.Ui
 {
@@ -19,8 +18,6 @@ namespace DoggyCompanion.Ui
 #if DEBUG
 		builder.Services.AddBlazorWebViewDeveloperTools();
 #endif
-
-            builder.Services.AddSingleton<WeatherForecastService>();
 
             return builder.Build();
         }
