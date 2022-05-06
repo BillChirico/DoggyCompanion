@@ -1,6 +1,7 @@
-﻿namespace DoggyCompanion.Domain.PetEvents
+﻿using DoggyCompanion.Domain.Entities;
+
+namespace DoggyCompanion.Domain.PetEvents;
+
+public class EatEvent : PetEventEntity
 {
-    public class EatEvent : PetEvent
-    {
-    }
 }

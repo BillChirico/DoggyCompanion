@@ -1,7 +1,13 @@
-﻿namespace DoggyCompanion.Domain.Pets
+﻿namespace DoggyCompanion.Domain.Pets;
+
+public enum PetType
 {
-    public enum PetType
-    {
-        Dog, Cat, Fish, Bird, Reptile, Rabbit, Hamster, GuineaPig
-    }
+    Dog,
+    Cat,
+    Fish,
+    Bird,
+    Reptile,
+    Rabbit,
+    Hamster,
+    GuineaPig
 }
