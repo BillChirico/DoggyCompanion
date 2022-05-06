@@ -5,25 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f7a8055-41eb-46e9-9cba-d1f6965ca5ee" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DoggyCompanion.Domain/Entities/Entity.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DoggyCompanion.Domain/PetEvents/BathroomEventEntity.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DoggyCompanion.Domain/PetEvents/EatEventEntity.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DoggyCompanion.Domain/PetEvents/ExerciseEventEntity.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DoggyCompanion.Domain/PetEvents/PetEventEntity.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DoggyCompanion.Domain/PetEvents/SleepEventEntity.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DoggyCompanion.Domain/Users/User.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DoggyCompanion.Service/DoggyCompanionContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DoggyCompanion.Service/Migrations/20220506134151_InitialMigration.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DoggyCompanion.Service/Migrations/20220506134151_InitialMigration.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DoggyCompanion.Service/Migrations/DoggyCompanionContextModelSnapshot.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DoggyCompanion/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DoggyCompanion/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DoggyCompanion.Domain/Entity.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DoggyCompanion.Domain/PetEvents/BathroomEvent.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DoggyCompanion.Domain/PetEvents/EatEvent.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DoggyCompanion.Domain/PetEvents/PetEvent.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DoggyCompanion.Domain/PetEvents/SleepEvent.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DoggyCompanion.Domain/Pets/Pet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/DoggyCompanion.Domain/Pets/Pet.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DoggyCompanion.Domain/Pets/PetType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/DoggyCompanion.Domain/Pets/PetType.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DoggyCompanion.Service/DoggyCompanion.Service.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/DoggyCompanion.Service/DoggyCompanion.Service.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Ethan Guest &lt;eguest01@gmail.com&gt;" />
+      </list>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/DoggyCompanion.Domain/Entities/PetEventEntity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/DoggyCompanion.Domain/PetEvents/BathroomEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/DoggyCompanion.Domain/PetEvents/EatEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/DoggyCompanion.Domain/PetEvents/ExerciseEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/DoggyCompanion.Domain/PetEvents/SleepEvent.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="InvalidFacetManager">
     <ignored-facets>
@@ -34,20 +42,24 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="28m2jM4qhyie73tqohi6LvZIEwS" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;rider.run.widget.enabled.cache&quot;: &quot;false&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "rider.run.widget.enabled.cache": "false",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -57,8 +69,17 @@
       <option name="presentableId" value="Default" />
       <updated>1651807585253</updated>
       <workItem from="1651807586426" duration="69000" />
-      <workItem from="1651809808581" duration="1122000" />
+      <workItem from="1651809808581" duration="1427000" />
+      <workItem from="1651842104467" duration="2915000" />
     </task>
+    <task id="LOCAL-00001" summary="add properties to domain models">
+      <created>1651811041353</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1651811041353</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -78,6 +99,13 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="add properties to domain models" />
+    <option name="LAST_COMMIT_MESSAGE" value="add properties to domain models" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
