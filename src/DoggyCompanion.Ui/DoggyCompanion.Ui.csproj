@@ -13,7 +13,7 @@
 		<EnableDefaultCssItems>false</EnableDefaultCssItems>
 
 		<!-- Display name -->
-		<ApplicationTitle>Doggy Companion </ApplicationTitle>
+		<ApplicationTitle>DoggyCompanion.Ui</ApplicationTitle>
 
 		<!-- App Identifier -->
 		<ApplicationId>com.companyname.doggycompanion.ui</ApplicationId>
