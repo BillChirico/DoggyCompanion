@@ -5,9 +5,9 @@ VisualStudioVersion = 17.2.32427.441
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DoggyCompanion.Ui", "src\DoggyCompanion.Ui\DoggyCompanion.Ui.csproj", "{2BA78AD2-BE3A-4FCA-8EDC-8954404C31DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoggyCompanion.Service", "src\DoggyCompanion.Service\DoggyCompanion.Service.csproj", "{47BA04A1-2E65-4916-ABEB-4ED4CAFCB1F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DoggyCompanion.Service", "src\DoggyCompanion.Service\DoggyCompanion.Service.csproj", "{47BA04A1-2E65-4916-ABEB-4ED4CAFCB1F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoggyCompanion.Domain", "src\DoggyCompanion.Domain\DoggyCompanion.Domain.csproj", "{4BFF80E5-B1F0-4705-8808-33F503228E8C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DoggyCompanion.Domain", "src\DoggyCompanion.Domain\DoggyCompanion.Domain.csproj", "{4BFF80E5-B1F0-4705-8808-33F503228E8C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

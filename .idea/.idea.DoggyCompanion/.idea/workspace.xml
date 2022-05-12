@@ -5,17 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f7a8055-41eb-46e9-9cba-d1f6965ca5ee" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DoggyCompanion.Ui/Pages/Events.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DoggyCompanion.Ui/Pages/Settings.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DoggyCompanion.Ui/Pages/Statistics.razor" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DoggyCompanion/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DoggyCompanion/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DoggyCompanion.Service/DoggyCompanionContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/DoggyCompanion.Service/DoggyCompanionContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DoggyCompanion.Ui/DoggyCompanion.Ui.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/DoggyCompanion.Ui/DoggyCompanion.Ui.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DoggyCompanion.Ui/MauiProgram.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/DoggyCompanion.Ui/MauiProgram.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DoggyCompanion.Ui/Shared/MainLayout.razor" beforeDir="false" afterPath="$PROJECT_DIR$/src/DoggyCompanion.Ui/Shared/MainLayout.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DoggyCompanion.Ui/Shared/NavMenu.razor" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DoggyCompanion.Ui/Shared/NavMenu.razor.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DoggyCompanion.Ui/wwwroot/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/DoggyCompanion.Ui/wwwroot/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DoggyCompanion.sln" beforeDir="false" afterPath="$PROJECT_DIR$/DoggyCompanion.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DoggyCompanion.Ui/Pages/Index.razor" beforeDir="false" afterPath="$PROJECT_DIR$/src/DoggyCompanion.Ui/Pages/Index.razor" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +68,8 @@
       <workItem from="1651842104467" duration="3763000" />
       <workItem from="1651862227023" duration="770000" />
       <workItem from="1651864829660" duration="3191000" />
+      <workItem from="1652327692848" duration="644000" />
+      <workItem from="1652330519221" duration="411000" />
     </task>
     <task id="LOCAL-00001" summary="add properties to domain models">
       <created>1651811041353</created>

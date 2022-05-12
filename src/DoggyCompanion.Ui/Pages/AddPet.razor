@@ -1,0 +1,38 @@
+﻿@page "/addpet"
+@using DoggyCompanion.Domain.Pets
+@using DoggyCompanion.Service
+@using DoggyCompanion.Domain.PetEvents
+@inject NavigationManager NavigationManager
+@inject DoggyCompanionContext Context
+
+<h2 class="d-flex">Add Pet</h2>
+
+<div class="d-flex">
+    <button type="button" class="btn btn-secondary" @onclick="Cancel">Cancel</button>
+    <button type="button" class="btn btn-primary" @onclick="Add">Add Pet</button>
+</div>
+
+@code {
+    private async Task Add()
+    {
+        try
+        {
+            await Context.Pets.AddAsync(new Pet
+            {
+                Name = "nutsack", UserId = 1, PetType = PetType.Dog, BathroomEvents = new List<BathroomEvent>(), EatEvents = new List<EatEvent>(), SleepEvents = new List<SleepEvent>()
+            });
+            await Context.SaveChangesAsync();
+            NavigationManager.NavigateTo("/");
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            throw;
+        }
+    }
+
+    private void Cancel()
+    {
+        NavigationManager.NavigateTo("/");
+    }
+}
